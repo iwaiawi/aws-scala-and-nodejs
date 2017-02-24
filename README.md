@@ -27,7 +27,7 @@ Run compile with proguard and deploy:
 cd functions/helloScala
 sbt proguard:proguard
 
-cd ../,,/
+cd ../../
 sls deploy -v
 
 sls invoke -f helloScala -v
